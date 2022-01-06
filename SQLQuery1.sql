@@ -2,11 +2,12 @@ select *
 from portifolio..covidDeath
 where continent is not null
 order by 3,4
-
+--select  Data  from covidVacination
 select *
 from portifolio..covidVacination
 where continent is not null
 order by 3,4
+
 
 select *
 from portifolio..covidVacination
@@ -14,7 +15,7 @@ where continent is not null
 and location  like '%egy%'
 order by 3,4
 
-
+--select  Data  from covidDeath
 
 select *
 from portifolio..covidDeath
